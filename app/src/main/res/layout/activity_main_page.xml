@@ -4,58 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    <!--android:background="@drawable/"-->
+    android:background="@drawable/background7"
+    tools:context=".MainPage">
 
-    <!--TODO: find a background-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
+        <ProgressBar
+            android:id="@+id/progress_bar"
 
-     tools:context=".MainPage">
+            android:layout_width="match_parent"
+            android:layout_height="308dp"
+            android:indeterminate="false"
+            tools:visibility="visible"
+            android:progress="100"/>
 
-     <ScrollView
-         android:layout_width="match_parent"
-         android:layout_height="match_parent"
-         tools:layout_editor_absoluteX="16dp"
-         tools:layout_editor_absoluteY="0dp">
+        <TextView
+            android:id="@+id/Progresscleaningtext"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:text="@string/Progress_of_cleaning"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="360dp" />
 
-         <LinearLayout
-             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
-             android:orientation="vertical">
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:text="@string/System_state"
+            android:textColor="@android:color/holo_blue_dark"
+            tools:layout_editor_absoluteX="188dp"
+            tools:layout_editor_absoluteY="409dp" />
 
-             <ProgressBar
-                 android:id="@+id/progressBar"
+        <TextView
+            android:id="@+id/SystemAlert"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:text="@string/systemalert"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark"
+            tools:layout_editor_absoluteX="128dp"
+            tools:layout_editor_absoluteY="462dp" />
 
-                 android:layout_width="match_parent"
-                 android:layout_height="308dp"
-                 android:indeterminate="false"
-                 tools:visibility="visible" />
+    </LinearLayout>
 
-             <TextView
-                 android:id="@+id/textView"
-                 android:layout_width="match_parent"
-                 android:layout_height="26dp"
-                 android:text="@string/Progress_of_cleaning"
-                 android:textColor="@android:color/black"
-                 android:textSize="18sp"
-                 tools:layout_editor_absoluteX="16dp"
-                 tools:layout_editor_absoluteY="360dp" />
-
-         </LinearLayout>
-     </ScrollView>
-
-     <Switch
-         android:id="@+id/switch1"
-         android:layout_width="wrap_content"
-         android:layout_height="0dp"
-         android:text="@string/System_state"
-         tools:layout_editor_absoluteX="188dp"
-         tools:layout_editor_absoluteY="409dp" />
-
-     <TextView
-         android:id="@+id/SystemAlert"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:text="@String/systemalert"
-         tools:layout_editor_absoluteX="16dp"
-         tools:layout_editor_absoluteY="462dp" />
- </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

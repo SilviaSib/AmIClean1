@@ -23,18 +23,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="scalingPercent" value="120" />
-                                              </map>
-                                            </option>
-                                          </PersistentState>
-                                        </value>
-                                      </entry>
-                                      <entry key="foregroundImage">
-                                        <value>
-                                          <PersistentState>
-                                            <option name="values">
-                                              <map>
-                                                <entry key="scalingPercent" value="112" />
+                                                <entry key="scalingPercent" value="128" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -57,7 +46,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="fontFamily" value="Times New Roman" />
-                                                <entry key="text" value="AmIClean" />
+                                                <entry key="text" value="AmiCLean" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -67,9 +56,8 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="backgroundImage" value="C:\Users\sibon_000\Documents\GitHub\AmIClean-code\AmIClean\app\src\main\res\drawable\intro-bg.jpg" />
+                                      <entry key="backgroundImage" value="C:\Users\sibon_000\Desktop\Uni\Programming\AndroidStudio\AmIClean\app\src\main\res\drawable\introbg.jpg" />
                                       <entry key="foregroundAssetType" value="TEXT" />
-                                      <entry key="foregroundImage" value="C:\Users\sibon_000\Documents\GitHub\AmIClean-code\AmIClean\app\src\main\res\drawable\intro-bg.jpg" />
                                     </map>
                                   </option>
                                 </PersistentState>

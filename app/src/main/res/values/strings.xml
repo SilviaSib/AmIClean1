@@ -1,47 +1,22 @@
 <resources>
     <string name="app_name">AmIClean</string>
-    <string name="title_activity_login">Sign in</string>
 
-    <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
-
-    <!-- String related to the header-->
-    <string name="title_activity_drawer_menu">DrawerMenu</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">AmIClean</string>
-    <string name="nav_header_subtitle">UserName?</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
-    <!-- Strings related to the component state-->
-
-    <string name="title_activity_component_state">ComponentState</string>
-
-    <string name="first_component"> First component</string>
-    <string name="description_first_component"> description first component</string>
-    <string name="second_component"> second component</string>
-    <string name="description_second_component"> description second component</string>
-    <string name="third_component"> third component</string>
-    <string name="description_third_component"> description third component</string>
-    <string name="fourth_component"> fourth component</string>
-    <string name="description_fourth_component"> description fourth component</string>
 
     <!-- Strings related to MainPage -->
 
     <string name="System_state">The system is</string>
     <string name="Progress_of_cleaning">Progress of the Cleaning</string>
+    <string name="systemalert">ERROR in the system</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
 
     <!-- Strings related to CleaningRating -->
 
     <string name="Question">Did you like the last cleaning?</string>
+
 </resources>

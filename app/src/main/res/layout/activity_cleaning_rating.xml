@@ -6,4 +6,38 @@
     android:layout_height="match_parent"
     tools:context=".CleaningRating">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:fontFamily="serif"
+            android:text="@string/Question"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="118dp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@style/AppTheme"
+            android:layout_width="329dp"
+            android:layout_height="171dp"
+            android:numStars="5"
+            android:progressBackgroundTint="@android:color/holo_blue_dark"
+            android:progressTint="@android:color/white"
+            android:rating="2"
+            android:secondaryProgressTint="@android:color/white"
+
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="253dp" />
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

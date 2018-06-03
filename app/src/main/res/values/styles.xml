@@ -17,4 +17,12 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="Theme"></style>
+
+    <style name="AmIClean" parent="AppTheme" >
+        <item name="colorPrimary">@color/blu2</item>
+        <item name="colorPrimaryDark">@color/blu2</item>
+        <item name="colorAccent">@color/blu1</item>
+    </style>
+
 </resources>
