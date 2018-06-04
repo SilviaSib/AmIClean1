@@ -7,9 +7,18 @@
     tools:context=".NavigationDrawer">
 
     <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_anchor="@+id/appBarLayout"
+        app:layout_anchorGravity="left|top">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_menu_black_24dp" />
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"

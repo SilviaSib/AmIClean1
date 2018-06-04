@@ -20,9 +20,9 @@
     <style name="Theme"></style>
 
     <style name="AmIClean" parent="AppTheme">
-        <item name="colorPrimary">@color/blu2</item>
-        <item name="colorPrimaryDark">@color/blu2</item>
-        <item name="colorAccent">@color/blu1</item>
+        <item name="colorPrimary">@color/blu1</item>
+        <item name="colorPrimaryDark">@color/Blu0</item>
+        <item name="colorAccent">@color/blu2</item>
     </style>
 
 </resources>

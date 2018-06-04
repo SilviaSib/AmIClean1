@@ -6,13 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".ComponentState">
 
-    <android.support.design.widget.AppBarLayout
-        android:layout_width="match_parent"
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_component_state"
+        app:layout_anchor="@+id/floatingActionButton"
+        app:layout_anchorGravity="left|center" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="161dp"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
-
-    </android.support.design.widget.AppBarLayout>
-
-    <include layout="@layout/content_component_state" />
+        android:clickable="true"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="right|bottom"
+        app:srcCompat="@drawable/ic_menu_black_24dp" />
 
 </android.support.design.widget.CoordinatorLayout>

@@ -20,7 +20,8 @@
             android:layout_width="match_parent"
             android:layout_height="320dp"
             android:max="100"
-            android:progress="0" />
+            android:progress="0"
+            android:progressTint="@color/Blu0" />
 
         <TextView
             android:id="@+id/Progresscleaningtext"
@@ -86,5 +87,14 @@
         </LinearLayout>
 
     </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_menu_black_24dp"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="467dp" />
 
 </android.support.constraint.ConstraintLayout>
