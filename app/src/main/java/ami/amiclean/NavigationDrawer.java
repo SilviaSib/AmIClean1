@@ -23,15 +23,6 @@ public class NavigationDrawer extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -81,14 +72,51 @@ public class NavigationDrawer extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
+            /*button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(NavigationDrawer.this, MainPage.class );
+                    startActivity(intent);
+                }
+            });*/
 
         } else if (id == R.id.nav_trend) {
+            /*button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(NavigationDrawer.this, RatingTrend.class );
+                    startActivity(intent);
+                }
+            });*/
 
+            /*TODO: need to create the schedule activity*/
         } else if (id == R.id.nav_schedule) {
+            /*button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(NavigationDrawer.this, MainPage.class );
+                    startActivity(intent);
+                }
+            });*/
 
+            /*TODO: ???*/
         } else if (id == R.id.nav_manage) {
+            /*button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(NavigationDrawer.this, Setting.class );
+                    startActivity(intent);
+                }
+            });*/
 
         }else if ( id == R.id.nav_components) {
+            /*button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(NavigationDrawer.this, ComponentState.class );
+                    startActivity(intent);
+                }
+            });*/
 
         }
 

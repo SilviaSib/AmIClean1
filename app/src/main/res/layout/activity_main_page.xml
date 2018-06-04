@@ -10,45 +10,80 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <ProgressBar
             android:id="@+id/progress_bar"
 
             android:layout_width="match_parent"
-            android:layout_height="308dp"
-            android:indeterminate="false"
-            tools:visibility="visible"
-            android:progress="100"/>
+            android:layout_height="320dp"
+            android:max="100"
+            android:progress="0" />
 
         <TextView
             android:id="@+id/Progresscleaningtext"
             android:layout_width="match_parent"
-            android:layout_height="26dp"
+            android:layout_height="wrap_content"
             android:text="@string/Progress_of_cleaning"
+            android:textAlignment="center"
             android:textColor="@android:color/holo_blue_dark"
-            android:textSize="18sp"
+            android:textSize="24sp"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="360dp" />
 
-        <Switch
-            android:id="@+id/switch1"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="91dp"
-            android:text="@string/System_state"
-            android:textColor="@android:color/holo_blue_dark"
-            tools:layout_editor_absoluteX="188dp"
-            tools:layout_editor_absoluteY="409dp" />
+            android:layout_height="58dp"
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/SystemAlert"
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/System_state" />
+
+            <ToggleButton
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_weight="1"
+                android:background="@color/Blu0"
+                android:text="ToggleButton"
+                android:textOff="@string/switch_on"
+                android:textOn="@string/switch_off" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/horizontal_layout_error"
             android:layout_width="match_parent"
-            android:layout_height="53dp"
-            android:text="@string/systemalert"
-            android:textAlignment="center"
-            android:textColor="@android:color/holo_red_dark"
-            tools:layout_editor_absoluteX="128dp"
-            tools:layout_editor_absoluteY="462dp" />
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/system_alert"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_weight="1"
+                android:text="@string/system_alert"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                tools:layout_editor_absoluteX="128dp"
+                tools:layout_editor_absoluteY="462dp" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button"
+                android:textAlignment="center"
+                android:textSize="10sp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
 
     </LinearLayout>
 

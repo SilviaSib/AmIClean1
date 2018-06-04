@@ -6,7 +6,7 @@
 
     <string name="System_state">The system is</string>
     <string name="Progress_of_cleaning">Progress of the Cleaning</string>
-    <string name="systemalert">ERROR in the system</string>
+    <string name="system_alert">ERROR in the system</string>
     <string name="title_activity_navigation_drawer">NavigationDrawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -14,9 +14,24 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-
+    <string name="switch_on">working</string>
+    <string name="switch_off">off</string>
+    <string name="button">component state</string>
     <!-- Strings related to CleaningRating -->
 
     <string name="Question">Did you like the last cleaning?</string>
+    <string name="title_activity_component_state">ComponentState</string>
+    <string name="submit">Submit rating</string>
+
+    <!-- Strings related to component state -->
+    <string name="ComponentName1">comp</string>
+    <string name="ComponentName2">comp</string>
+    <string name="ComponentName3">comp</string>
+    <string name="ComponentName4">comp</string>
+    <string name="ComponentDescription1">c</string>
+    <string name="ComponentDescription2">c</string>
+    <string name="ComponentDescription3">c</string>
+    <string name="ComponentDescription4">c</string>
+
 
 </resources>
